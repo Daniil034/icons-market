@@ -1,0 +1,20 @@
+.root {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.feature {
+  flex-basis: 410px;
+  position: relative;
+
+  &:not(:last-child):after {
+    content: '';
+    width: 1px;
+    height: 55%;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: var(--support-dark-grey);
+  }
+}

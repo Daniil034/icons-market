@@ -1,0 +1,20 @@
+.root {
+  display: flex;
+  align-items: center;
+  padding: 30px var(--padding-horizontal);
+}
+
+.left, .right {
+  display: flex;
+  gap: 30px;
+}
+
+.middle {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.right {
+
+}

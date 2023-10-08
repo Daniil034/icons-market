@@ -1,0 +1,40 @@
+.tabsHeader {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 50px;
+}
+
+.tabsHeaderElement, .tabsHeaderElementActive {
+  padding: 16px;
+  position: relative;
+
+  &:not(:last-child):after {
+    content: '';
+    width: 1px;
+    height: 50%;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: var(--support-dark-grey);
+  }
+}
+
+.tabsHeaderElement {
+  color: var(--text-primary);
+}
+
+.tabsHeaderElementActive {
+  color: var(--brand-primary-violet);
+}
+
+.tabsContent {
+  display: flex;
+  gap: 45px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

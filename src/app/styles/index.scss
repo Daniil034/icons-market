@@ -1,0 +1,40 @@
+@import './normalize';
+@import "./variables/global";
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 600;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
+}
+
+button {
+  outline: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}

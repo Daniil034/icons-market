@@ -1,0 +1,32 @@
+.header {
+  text-align: center;
+  color: var(--text-primary);
+
+  &Top {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+
+  &Bottom {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+}
+
+.featuresBlock {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.feature {
+  flex-basis: 390px;
+}
+
+.button {
+  align-self: center;
+}

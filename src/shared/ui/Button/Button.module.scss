@@ -1,0 +1,21 @@
+.root {
+  padding: 16px 32px;
+  border-radius: 10px;
+  text-transform: capitalize;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.white {
+  border: 2px solid var(--white-button-border-color);
+  background-color: var(--support-white);
+  box-shadow: var(--white-button-box-shadow);
+}
+
+.yellow {
+  border: 2px solid var(--yellow-button-border-color);
+  background: var(--yellow);
+  box-shadow: var(--yellow-button-box-shadow);
+}

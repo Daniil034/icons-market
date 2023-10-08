@@ -1,0 +1,43 @@
+.root {
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  border-radius: 20px;
+  background: var(--figma-plugin-background);
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: flex-start;
+  width: 363px;
+
+  &text {
+    color: var(--support-white);
+
+    &Title {
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+      margin-bottom: 5px;
+    }
+
+    &Description {
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+    }
+  }
+}
+
+.figmaIcon {
+  path {
+    stroke: var(--support-white);
+    stroke-width: 3.5px;
+  }
+}
